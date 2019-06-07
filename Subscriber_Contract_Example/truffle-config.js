@@ -24,7 +24,7 @@
 // const fs = require('fs');
 
 const HDWalletProviderMem = require("truffle-hdwallet-provider");
-const mnemonic = ""
+const mnemonic = "spice share prize begin upgrade moment empty erode produce jeans error raw";
 
 module.exports = {
   /**
@@ -49,10 +49,11 @@ module.exports = {
     //  port: 8545,            // Standard Ethereum port (default: none)
     //  network_id: "*",       // Any network (default: none)
     // },
-    "main":{
-      provider: new HDWalletProviderMem(mnemonic, "https://mainnet.infura.io"),
-      network_id: "1",
-      gasPrice:5000000000
+
+    kovan: {
+      provider: new HDWalletProviderMem(mnemonic, "https://kovan.infura.io/ws/xeb916AFjrcttuQlezyq"),
+      network_id: 42,
+      gasPrice: 5000000000
     }
 
     // Another network with more advanced options...
