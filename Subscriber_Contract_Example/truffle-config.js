@@ -52,7 +52,7 @@ module.exports = {
 
     kovan: {
       provider: new HDWalletProviderMem(mnemonic, "https://kovan.infura.io/ws/xeb916AFjrcttuQlezyq"),
-      network_id: 42,
+      network_id: 3,
       gasPrice: 5000000000
     }
 
