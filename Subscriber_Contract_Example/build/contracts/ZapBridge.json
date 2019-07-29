@@ -177,12 +177,12 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"bondage\",\"type\":\"address\"},{\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"contractName\",\"type\":\"string\"}],\"name\":\"getContract\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"provider\",\"type\":\"address\"},{\"name\":\"queryString\",\"type\":\"string\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"params\",\"type\":\"bytes32[]\"}],\"name\":\"query\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"provider\",\"type\":\"address\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"dots\",\"type\":\"uint256\"}],\"name\":\"bond\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"provider\",\"type\":\"address\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"dots\",\"type\":\"uint256\"}],\"name\":\"unbond\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"provider\",\"type\":\"address\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"dots\",\"type\":\"uint256\"}],\"name\":\"calcZapForDots\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"holderAddress\",\"type\":\"address\"},{\"name\":\"oracleAddress\",\"type\":\"address\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"numDots\",\"type\":\"uint256\"}],\"name\":\"delegateBond\",\"outputs\":[{\"name\":\"boundZap\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/miltonli/Documents/Development/subscriber-template/Subscriber_Contract_Example/contracts/subscriber.sol\":\"ZapBridge\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/miltonli/Documents/Development/subscriber-template/Subscriber_Contract_Example/contracts/subscriber.sol\":{\"keccak256\":\"0x6dc2fda04c666dc33758e5c83365493ec97a849eaa4146bd6d31dcce70a8f88d\",\"urls\":[\"bzzr://8c14b855263c26f7190a43d58d68e8d04ed6101c38ae527ae7a2da6fb1f4d431\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"bondage\",\"type\":\"address\"},{\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"contractName\",\"type\":\"string\"}],\"name\":\"getContract\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"provider\",\"type\":\"address\"},{\"name\":\"queryString\",\"type\":\"string\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"params\",\"type\":\"bytes32[]\"}],\"name\":\"query\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"provider\",\"type\":\"address\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"dots\",\"type\":\"uint256\"}],\"name\":\"bond\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"provider\",\"type\":\"address\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"dots\",\"type\":\"uint256\"}],\"name\":\"unbond\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"provider\",\"type\":\"address\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"dots\",\"type\":\"uint256\"}],\"name\":\"calcZapForDots\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"holderAddress\",\"type\":\"address\"},{\"name\":\"oracleAddress\",\"type\":\"address\"},{\"name\":\"endpoint\",\"type\":\"bytes32\"},{\"name\":\"numDots\",\"type\":\"uint256\"}],\"name\":\"delegateBond\",\"outputs\":[{\"name\":\"boundZap\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/miltonli/Documents/Development/subscriber-template/Subscriber_Contract_Example/contracts/subscriber.sol\":\"ZapBridge\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/miltonli/Documents/Development/subscriber-template/Subscriber_Contract_Example/contracts/subscriber.sol\":{\"keccak256\":\"0x1bdeff3c8445098d8cd9961e0a5be9c20f4908c48264408f8c3ec1065396ca8c\",\"urls\":[\"bzzr://beff14f969eb6c180af55f660e2e4442544e8c6825442582d931c6ec421a0862\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity ^0.5.0;\n\n// Zap contracts's methods that subscriber can call knowing the addresses\ncontract ZapBridge{\n    function getContract(string memory contractName) public view returns (address); //coordinator\n    function bond(address provider ,bytes32 endpoint, uint256 dots) public;\n    function unbond(address provider ,bytes32 endpoint, uint256 dots) public;\n    function calcZapForDots(address provider, bytes32 endpoint, uint256 dots) external view returns (uint256); //bondage\n    function delegateBond(address holderAddress, address oracleAddress, bytes32 endpoint, uint256 numDots) external returns (uint256 boundZap); //bondage\n    function query(address provider, string calldata queryString, bytes32 endpoint, bytes32[] calldata params) external returns (uint256); //dispatch\n    function approve(address bondage, uint256 amount) public returns (bool); // Zap Token\n}\n\ncontract Subscriber {\n\n    address public owner;\n    ZapBridge public coordinator;\n    address provider;\n    bytes32 endpoint;\n    uint256 query_id;\n\n    event ReceiveResponse(uint256 indexed id, int indexed result);\n\n\n    //Coordinator contract is one single contract that\n    //knows all other Zap contract addresses\n    constructor(address _coordinator, address _provider, bytes32 _endpoint) public{\n        owner = msg.sender;\n        coordinator = ZapBridge(_coordinator);\n        provider = _provider;\n        endpoint = _endpoint;\n    }\n\n    //This function call can be skipped if owner approve and delegateBond for this contract\n    function approve(uint256 amount) public returns (bool){\n      address ZapTokenAddress = coordinator.getContract(\"ZAP_TOKEN\");\n      address BondageAddress = coordinator.getContract(\"BONDAGE\");\n      return ZapBridge(ZapTokenAddress).approve(BondageAddress,amount);\n\n    }\n\n    //This function call can be ommitted if owner call delegateBond directly to Bondage contract\n    //Contract has to hold enough zap approved\n    function bond(uint256 dots) public{\n        address BondageAddress = coordinator.getContract(\"BONDAGE\");\n        return ZapBridge(BondageAddress).bond(provider,endpoint,dots);\n    }\n\n    //This function call can be ommitted if owner call delegateBond directly to Bondage\n    function unbond(uint256 dots) public{\n        address BondageAddress = coordinator.getContract(\"BONDAGE\");\n        return ZapBridge(BondageAddress).bond(provider,endpoint,dots);\n    }\n\n    //Query offchain or onchain provider.\n    function query(string memory queryString, bytes32[] memory params) public returns (uint256) {\n        address dispatchAddress = coordinator.getContract(\"DISPATCH\");\n        query_id = ZapBridge(dispatchAddress).query(provider,queryString,endpoint,params);\n        return query_id;\n    }\n\n    //Implementing callback that will accept provider's respondIntArray\n    //Response method options  are  :respondBytes32Array, respondIntArray, respond1, respond2, respond3, respond4\n    function callback(uint256 _id, int _response) external{\n        require(_id==query_id,\"Wrong query Id\");\n        emit ReceiveResponse(_id,_response);\n        //Implement your logic with _response data here\n    }\n\n}\n",
+  "source": "pragma solidity ^0.5.0;\n\n// Zap contracts's methods that subscriber can call knowing the addresses\ncontract ZapBridge{\n    function getContract(string memory contractName) public view returns (address); //coordinator\n    function bond(address provider ,bytes32 endpoint, uint256 dots) public;\n    function unbond(address provider ,bytes32 endpoint, uint256 dots) public;\n    function calcZapForDots(address provider, bytes32 endpoint, uint256 dots) external view returns (uint256); //bondage\n    function delegateBond(address holderAddress, address oracleAddress, bytes32 endpoint, uint256 numDots) external returns (uint256 boundZap); //bondage\n    function query(address provider, string calldata queryString, bytes32 endpoint, bytes32[] calldata params) external returns (uint256); //dispatch\n    function approve(address bondage, uint256 amount) public returns (bool); // Zap Token\n}\n\ncontract Subscriber {\n\n    address public owner;\n    ZapBridge public coordinator;\n    address provider;\n    bytes32 endpoint;\n    uint256 query_id;\n\n    event ReceiveResponse(uint256 indexed id, int indexed result);\n\n\n    //Coordinator contract is one single contract that\n    //knows all other Zap contract addresses\n    constructor(address _coordinator, address _provider, bytes32 _endpoint) public{\n        owner = msg.sender;\n        coordinator = ZapBridge(_coordinator);\n        provider = _provider;\n        endpoint = _endpoint;\n    }\n\n    //This function call can be skipped if owner approve and delegateBond for this contract\n    function approve(uint256 amount) public returns (bool){\n      address ZapTokenAddress = coordinator.getContract(\"ZAP_TOKEN\");\n      address BondageAddress = coordinator.getContract(\"BONDAGE\");\n      return ZapBridge(ZapTokenAddress).approve(BondageAddress,amount);\n\n    }\n\n    //This function call can be ommitted if owner call delegateBond directly to Bondage contract\n    //Contract has to hold enough zap approved\n    function bond(uint256 dots) public{\n        address BondageAddress = coordinator.getContract(\"BONDAGE\");\n        return ZapBridge(BondageAddress).bond(provider,endpoint,dots);\n    }\n\n    //This function call can be ommitted if owner call delegateBond directly to Bondage\n    function unbond(uint256 dots) public{\n        address BondageAddress = coordinator.getContract(\"BONDAGE\");\n        return ZapBridge(BondageAddress).bond(provider,endpoint,dots);\n    }\n\n    //Query offchain or onchain provider.\n    function query(string memory queryString, bytes32[] memory params) public returns (uint256) {\n        address dispatchAddress = coordinator.getContract(\"DISPATCH\");\n        query_id = ZapBridge(dispatchAddress).query(provider,queryString,endpoint,params);\n        return query_id;\n    }\n\n    //Implementing callback that will accept provider's respondIntArray\n    //Response method options  are  :respondBytes32Array, respondIntArray, respond1, respond2, respond3, respond4\n    function callback(uint256 _id, int _response) external {\n        require(_id==query_id,\"Wrong query Id\");\n        emit ReceiveResponse(_id,_response);\n    }\n\n}\n",
   "sourcePath": "/Users/miltonli/Documents/Development/subscriber-template/Subscriber_Contract_Example/contracts/subscriber.sol",
   "ast": {
     "absolutePath": "/Users/miltonli/Documents/Development/subscriber-template/Subscriber_Contract_Example/contracts/subscriber.sol",
@@ -3139,7 +3139,7 @@
             "body": {
               "id": 301,
               "nodeType": "Block",
-              "src": "2989:157:1",
+              "src": "2990:101:1",
               "statements": [
                 {
                   "expression": {
@@ -3163,7 +3163,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 284,
-                          "src": "3007:3:1",
+                          "src": "3008:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3178,13 +3178,13 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 141,
-                          "src": "3012:8:1",
+                          "src": "3013:8:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "3007:13:1",
+                        "src": "3008:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -3200,7 +3200,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "3021:16:1",
+                        "src": "3022:16:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_65ec433a27f67e2d40ad068ec9371024ddc0afed7b90df24c338811767ed54c1",
@@ -3228,7 +3228,7 @@
                         322
                       ],
                       "referencedDeclaration": 322,
-                      "src": "2999:7:1",
+                      "src": "3000:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -3242,7 +3242,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "2999:39:1",
+                    "src": "3000:39:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -3250,7 +3250,7 @@
                   },
                   "id": 295,
                   "nodeType": "ExpressionStatement",
-                  "src": "2999:39:1"
+                  "src": "3000:39:1"
                 },
                 {
                   "eventCall": {
@@ -3263,7 +3263,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 284,
-                        "src": "3069:3:1",
+                        "src": "3070:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3276,7 +3276,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 286,
-                        "src": "3073:9:1",
+                        "src": "3074:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_int256",
                           "typeString": "int256"
@@ -3299,7 +3299,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 147,
-                      "src": "3053:15:1",
+                      "src": "3054:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_int256_$returns$__$",
                         "typeString": "function (uint256,int256)"
@@ -3313,7 +3313,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "3053:30:1",
+                    "src": "3054:30:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -3321,7 +3321,7 @@
                   },
                   "id": 300,
                   "nodeType": "EmitStatement",
-                  "src": "3048:35:1"
+                  "src": "3049:35:1"
                 }
               ]
             },
@@ -3395,20 +3395,20 @@
               "id": 288,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2989:0:1"
+              "src": "2990:0:1"
             },
             "scope": 303,
-            "src": "2935:211:1",
+            "src": "2935:156:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
         "scope": 304,
-        "src": "889:2260:1"
+        "src": "889:2205:1"
       }
     ],
-    "src": "0:3150:1"
+    "src": "0:3095:1"
   },
   "legacyAST": {
     "absolutePath": "/Users/miltonli/Documents/Development/subscriber-template/Subscriber_Contract_Example/contracts/subscriber.sol",
@@ -6365,7 +6365,7 @@
             "body": {
               "id": 301,
               "nodeType": "Block",
-              "src": "2989:157:1",
+              "src": "2990:101:1",
               "statements": [
                 {
                   "expression": {
@@ -6389,7 +6389,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 284,
-                          "src": "3007:3:1",
+                          "src": "3008:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -6404,13 +6404,13 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 141,
-                          "src": "3012:8:1",
+                          "src": "3013:8:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "3007:13:1",
+                        "src": "3008:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -6426,7 +6426,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "3021:16:1",
+                        "src": "3022:16:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_65ec433a27f67e2d40ad068ec9371024ddc0afed7b90df24c338811767ed54c1",
@@ -6454,7 +6454,7 @@
                         322
                       ],
                       "referencedDeclaration": 322,
-                      "src": "2999:7:1",
+                      "src": "3000:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -6468,7 +6468,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "2999:39:1",
+                    "src": "3000:39:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -6476,7 +6476,7 @@
                   },
                   "id": 295,
                   "nodeType": "ExpressionStatement",
-                  "src": "2999:39:1"
+                  "src": "3000:39:1"
                 },
                 {
                   "eventCall": {
@@ -6489,7 +6489,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 284,
-                        "src": "3069:3:1",
+                        "src": "3070:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -6502,7 +6502,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 286,
-                        "src": "3073:9:1",
+                        "src": "3074:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_int256",
                           "typeString": "int256"
@@ -6525,7 +6525,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 147,
-                      "src": "3053:15:1",
+                      "src": "3054:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_int256_$returns$__$",
                         "typeString": "function (uint256,int256)"
@@ -6539,7 +6539,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "3053:30:1",
+                    "src": "3054:30:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -6547,7 +6547,7 @@
                   },
                   "id": 300,
                   "nodeType": "EmitStatement",
-                  "src": "3048:35:1"
+                  "src": "3049:35:1"
                 }
               ]
             },
@@ -6621,20 +6621,20 @@
               "id": 288,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2989:0:1"
+              "src": "2990:0:1"
             },
             "scope": 303,
-            "src": "2935:211:1",
+            "src": "2935:156:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
         "scope": 304,
-        "src": "889:2260:1"
+        "src": "889:2205:1"
       }
     ],
-    "src": "0:3150:1"
+    "src": "0:3095:1"
   },
   "compiler": {
     "name": "solc",
@@ -6642,7 +6642,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.10",
-  "updatedAt": "2019-06-07T17:26:23.386Z",
+  "updatedAt": "2019-06-11T18:35:38.840Z",
   "devdoc": {
     "methods": {}
   },

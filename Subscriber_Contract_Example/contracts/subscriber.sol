@@ -61,10 +61,9 @@ contract Subscriber {
 
     //Implementing callback that will accept provider's respondIntArray
     //Response method options  are  :respondBytes32Array, respondIntArray, respond1, respond2, respond3, respond4
-    function callback(uint256 _id, int _response) external{
+    function callback(uint256 _id, int _response) external {
         require(_id==query_id,"Wrong query Id");
         emit ReceiveResponse(_id,_response);
-        //Implement your logic with _response data here
     }
 
 }
